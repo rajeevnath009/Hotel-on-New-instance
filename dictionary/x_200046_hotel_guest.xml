@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Guest" max_length="40" name="x_200046_hotel_guest" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Membership number" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>
