@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>01da5db64f7113002529c4b18110c746</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Guests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hotel" source="x_200046_hotel">fe6a38364f3113002529c4b18110c7aa</sys_package>
@@ -38,11 +38,11 @@
         <sys_scope display_value="Hotel">fe6a38364f3113002529c4b18110c7aa</sys_scope>
         <sys_update_name>sys_app_module_01da5db64f7113002529c4b18110c746</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 17:55:00</sys_updated_on>
+        <sys_updated_on>2018-05-06 13:14:09</sys_updated_on>
         <timeline_page/>
         <title>Guests</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>Simple</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>
