@@ -3,6 +3,7 @@
     <element label="Reservation" max_length="40" name="x_200046_hotel_reservation" type="collection">
         <element label="Arrival" max_length="40" name="arrival" type="glide_date"/>
         <element label="Departure" max_length="40" name="departure" type="glide_date"/>
+        <element label="Lead" max_length="40" name="lead" type="boolean"/>
         <element label="Room" max_length="32" name="room" reference="x_200046_hotel_room" type="reference"/>
         <index name="index">
             <element name="room"/>

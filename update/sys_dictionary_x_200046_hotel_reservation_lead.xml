@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="guest" table="x_200046_hotel_check_in">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="lead" table="x_200046_hotel_reservation">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Guest</column_label>
+        <column_label>Lead</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -19,26 +19,26 @@
         <dependent/>
         <dependent_on_field/>
         <display>false</display>
-        <dynamic_creation>true</dynamic_creation>
+        <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>guest</element>
+        <element>lead</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_200046_hotel_check_in</name>
+        <max_length>40</max_length>
+        <name>x_200046_hotel_reservation</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_200046_hotel_guest">x_200046_hotel_guest</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>javascript:guestsWithReservations</reference_qual>
+        <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -46,24 +46,24 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-05 07:12:25</sys_created_on>
+        <sys_created_on>2018-05-08 14:05:52</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>4e5190474fb513002529c4b18110c77e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Guest</sys_name>
+        <sys_id>2bbc4dc84f8293002529c4b18110c790</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lead</sys_name>
         <sys_package display_value="Hotel" source="x_200046_hotel">fe6a38364f3113002529c4b18110c7aa</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Hotel">fe6a38364f3113002529c4b18110c7aa</sys_scope>
-        <sys_update_name>sys_dictionary_x_200046_hotel_check_in_guest</sys_update_name>
+        <sys_update_name>sys_dictionary_x_200046_hotel_reservation_lead</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-09 10:34:56</sys_updated_on>
+        <sys_updated_on>2018-05-08 14:05:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>

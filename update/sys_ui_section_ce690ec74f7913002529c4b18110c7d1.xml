@@ -5,13 +5,13 @@
             <element>arrival</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-05 16:12:47</sys_created_on>
-            <sys_id>2d0d068b4f7913002529c4b18110c7ec</sys_id>
+            <sys_created_on>2018-05-08 14:05:52</sys_created_on>
+            <sys_id>b3bc4dc84f8293002529c4b18110c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_200046_hotel_reservation" sys_domain="global" view="Default view">ce690ec74f7913002529c4b18110c7d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-05 16:12:47</sys_updated_on>
+            <sys_updated_on>2018-05-08 14:05:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>departure</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-05 16:12:47</sys_created_on>
-            <sys_id>ad0d068b4f7913002529c4b18110c7ec</sys_id>
+            <sys_created_on>2018-05-08 14:05:52</sys_created_on>
+            <sys_id>3bbc4dc84f8293002529c4b18110c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_200046_hotel_reservation" sys_domain="global" view="Default view">ce690ec74f7913002529c4b18110c7d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-05 16:12:47</sys_updated_on>
+            <sys_updated_on>2018-05-08 14:05:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-05 16:12:47</sys_created_on>
-            <sys_id>210d068b4f7913002529c4b18110c7ed</sys_id>
+            <sys_created_on>2018-05-08 14:05:52</sys_created_on>
+            <sys_id>bbbc4dc84f8293002529c4b18110c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_200046_hotel_reservation" sys_domain="global" view="Default view">ce690ec74f7913002529c4b18110c7d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-05 16:12:47</sys_updated_on>
+            <sys_updated_on>2018-05-08 14:05:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,27 @@
             <element>room</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-05 16:12:47</sys_created_on>
-            <sys_id>a10d068b4f7913002529c4b18110c7ed</sys_id>
+            <sys_created_on>2018-05-08 14:05:52</sys_created_on>
+            <sys_id>3fbc4dc84f8293002529c4b18110c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_200046_hotel_reservation" sys_domain="global" view="Default view">ce690ec74f7913002529c4b18110c7d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-05 16:12:47</sys_updated_on>
+            <sys_updated_on>2018-05-08 14:05:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lead</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-08 14:05:52</sys_created_on>
+            <sys_id>bfbc4dc84f8293002529c4b18110c7a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_200046_hotel_reservation" sys_domain="global" view="Default view">ce690ec74f7913002529c4b18110c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-08 14:05:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
