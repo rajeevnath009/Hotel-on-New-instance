@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_web_service_input">
+    <sys_web_service_input action="INSERT_OR_UPDATE">
+        <name>a</name>
+        <order>100</order>
+        <sys_class_name>sys_web_service_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-19 09:45:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>367af8ab4f0693002529c4b18110c756</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a</sys_name>
+        <sys_package display_value="Hotel" source="x_200046_hotel">fe6a38364f3113002529c4b18110c7aa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">fe6a38364f3113002529c4b18110c7aa</sys_scope>
+        <sys_update_name>sys_web_service_input_367af8ab4f0693002529c4b18110c756</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-19 09:45:33</sys_updated_on>
+        <web_service display_value="Multiply">b61a38ab4f0693002529c4b18110c70d</web_service>
+    </sys_web_service_input>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description/>
+        <interactive>false</interactive>
+        <name>Hello</name>
+        <parameters>HELLO</parameters>
+        <params_endpoint>x_200046_hotel_HELLO</params_endpoint>
+        <path>hello</path>
+        <path_endpoint>x_200046_hotel_hello</path_endpoint>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[(function process(g_request, g_response, g_processor) {
+
+	// Add your code here
+	g_processor.writeOutput('text/plain', 'Hello ' + g_request.getParameter('name') + '!');
+
+})(g_request, g_response, g_processor);]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-19 10:02:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>70fc3ceb4f0693002529c4b18110c711</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hello</sys_name>
+        <sys_package display_value="Hotel" source="x_200046_hotel">fe6a38364f3113002529c4b18110c7aa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">fe6a38364f3113002529c4b18110c7aa</sys_scope>
+        <sys_update_name>sys_processor_70fc3ceb4f0693002529c4b18110c711</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-19 10:02:51</sys_updated_on>
+        <type>script</type>
+    </sys_processor>
+</record_update>

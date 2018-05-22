@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Room Maintenance Properties" max_length="40" name="x_200046_hotel_room_maintenance_properties" type="collection"/>
+</database>

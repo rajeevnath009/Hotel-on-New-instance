@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Maintains" max_length="40" name="x_200046_hotel_maintains" sizeclass="13" type="collection">
+        <element label="Room" max_length="32" name="room" reference="x_200046_hotel_room" type="reference"/>
+    </element>
+</database>
